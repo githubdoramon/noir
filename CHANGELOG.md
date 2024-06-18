@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.31.1](https://github.com/noir-lang/noir/compare/v0.31.0...v0.31.1) (2024-06-18)
+
+
+### Features
+
+* Add fuzzer for Noir programs ([#5251](https://github.com/noir-lang/noir/issues/5251)) ([e100017](https://github.com/noir-lang/noir/commit/e1000176a31140b2abd79c47653cbc4bb1a6808a))
+* Add support for wildcard types ([#5275](https://github.com/noir-lang/noir/issues/5275)) ([7445efb](https://github.com/noir-lang/noir/commit/7445efb05165bf7df2f9dfe325abbc42f839364c))
+* Implement comptime support for `array_len` builtin ([#5272](https://github.com/noir-lang/noir/issues/5272)) ([c91186a](https://github.com/noir-lang/noir/commit/c91186a5c0d9e84767f160e6acd63672b23e8f52))
+* Implement comptime support for `as_slice` builtin ([#5276](https://github.com/noir-lang/noir/issues/5276)) ([9db65d8](https://github.com/noir-lang/noir/commit/9db65d8706ac8b67921f2a73163ab8bee3dfb4e8))
+* Run `comptime` code from annotations on a type definition ([#5256](https://github.com/noir-lang/noir/issues/5256)) ([6cbe6a0](https://github.com/noir-lang/noir/commit/6cbe6a0c830b2992666e0f9bdbc8f66ec41eed84))
+
+
+### Bug Fixes
+
+* Use proper serialization in `AbiValue` ([#5270](https://github.com/noir-lang/noir/issues/5270)) ([d08b7b9](https://github.com/noir-lang/noir/commit/d08b7b93a981f2e01a3d9754b194c5565ad3a7c2))
+
 ## [0.31.0](https://github.com/noir-lang/noir/compare/v0.30.0...v0.31.0) (2024-06-17)
 
 
